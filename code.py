@@ -1,5 +1,4 @@
 def are_valid_groups(students, groups):
-<<<<<<< HEAD
     result = False;
 
     for i in range(len(students)):      #Goes through list of students
@@ -66,7 +65,6 @@ print(are_valid_groups(["1","2","3"],[["1","2","3"],["4","5","6","7","8"]]))
 #             break
 #
 #     return result
-=======
     for i in students:
         for j in groups:
             for k in j:
@@ -82,4 +80,3 @@ print(are_valid_groups(["1","2","3"],[["1","2","3"],["4","5","6","7","8"]]))
 
 
 print(are_valid_groups([1, 2, 3], [[1, 2], [1, 3]]))
->>>>>>> c0830ba4d7983e6fff7204f1e45b8c8d9890f505
