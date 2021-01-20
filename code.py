@@ -14,14 +14,6 @@ def are_valid_groups(students, groups):
             if result == True:
                 break
 
-        
-        else:
-            
-
-            if result == True and i != len(students)-1:
-                result = False
-            else:
-                break
     else:
         result = false
     return result
