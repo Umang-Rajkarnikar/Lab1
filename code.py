@@ -17,7 +17,7 @@ def are_valid_groups(students, groups):
         if result == True:
             result = False
         else:
-            break
+            
 
     return result
 
