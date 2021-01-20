@@ -20,7 +20,7 @@ def are_valid_groups(students, groups):
         if result == True and i != len(students)-1:
             result = False
         else:
-            break
+            
 
     return result
 
