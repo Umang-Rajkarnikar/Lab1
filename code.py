@@ -1,52 +1,29 @@
 
 def are_valid_groups(students, groups):
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> 6a1008837d7ea174343ad19cf4e6e98c60613459
-    result = False;
 
-    for i in range(len(students)):      #Goes through list of students
-        for j in groups:    #Goes through list of groups
-            for k in j:     #Goes through nested list of students in groups
+    result = False
+
+    for i in range(len(students)):  # Goes through list of students
+        for j in groups:  # Goes through list of groups
+            for k in j:  # Goes through nested list of students in groups
                 if len(j) < 3:
-                    if k == students[i]:     #Checks if a student is an element inside the nested list of students
+                    # Checks if a student is an element inside the nested list of students
+                    if k == students[i]:
                         result = True
-                        break       #exits current loop in the case that it is, so it moves on to the next student
+                        break  # exits current loop in the case that it is, so it moves on to the next student
             if result == True:
                 break
 
-        if result == True and i != len(students)-1:
+        if result == True:
             result = False
         else:
             break
 
     return result
 
-print(are_valid_groups(["1","2","3"],[["1","2","3"],["4","5","6","7","8"]]))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+print(are_valid_groups(["1", "2", "3"], [
+      ["1", "2", "3"], ["4", "5", "6", "7", "8"]]))
 
 
 # def are_valid_groups(students, groups):
@@ -71,9 +48,9 @@ print(are_valid_groups(["1","2","3"],[["1","2","3"],["4","5","6","7","8"]]))
 #             break
 #
 #     return result
-    for i in students:
-        for j in groups:
-            for k in j:
+ for i in students:
+      for j in groups:
+           for k in j:
                 if k == i:
                     yes = True
                     break
@@ -82,36 +59,36 @@ print(are_valid_groups(["1","2","3"],[["1","2","3"],["4","5","6","7","8"]]))
                     continue
             break
 
-<<<<<<< HEAD
-=======
+<< << << < HEAD
+== == == =
 
->>>>>>> ea53d82278d7105abd3bfa17de4204beaa6a1961
-    result = False
+>>>>>> > ea53d82278d7105abd3bfa17de4204beaa6a1961
+ result = False
 
-    for i in range(len(students)):  # Goes through list of students
-        for j in groups:  # Goes through list of groups
+  for i in range(len(students)):  # Goes through list of students
+       for j in groups:  # Goes through list of groups
             for k in j:  # Goes through nested list of students in groups
                 # Checks if a student is an element inside the nested list of students
                 if k == students[i]:
-    
+
         else:
             break
->>>>>>> 6a1008837d7ea174343ad19cf4e6e98c60613459
+>>>>>> > 6a1008837d7ea174343ad19cf4e6e98c60613459
 
-    result = False
+ result = False
 
-    for i in range(len(students)):  # Goes through list of students
-        for j in groups:  # Goes through list of groups
+  for i in range(len(students)):  # Goes through list of students
+       for j in groups:  # Goes through list of groups
             for k in j:  # Goes through nested list of students in groups
                 # Checks if a student is an element inside the nested list of students
                 if k == students[i]:
-    
+
         else:
             break
 
-<<<<<<< HEAD
+<< << << < HEAD
 print(are_valid_groups([1, 2, 3], [[1, 2], [1, 3]]))
-=======
+== == == =
 print(are_valid_groups(["1", "2", "3"], [
       ["1", "2", "3"], ["4", "5", "6", "7", "8"]]))
->>>>>>> 6a1008837d7ea174343ad19cf4e6e98c60613459
+>>>>>> > 6a1008837d7ea174343ad19cf4e6e98c60613459
