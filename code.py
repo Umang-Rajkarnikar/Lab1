@@ -19,7 +19,7 @@ def are_valid_groups(students, groups):
 
     return result
 
-print(are_valid_groups([1,2,3],[[1,2,3],[4,5,6,7,8]]))
+print(are_valid_groups(["1","2","3"],[["1","2","3"],["4","5","6","7","8"]]))
 
 
 
