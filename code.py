@@ -78,7 +78,6 @@ print(are_valid_groups(["1","2","3"],[["1","2","3"],["4","5","6","7","8"]]))
             break
 
     return yes
-=======
 
     result = False
 
@@ -97,7 +96,5 @@ print(are_valid_groups(["1","2","3"],[["1","2","3"],["4","5","6","7","8"]]))
             result = False
         else:
             break
->>>>>>> 673b18957e87bdc7d1d17a91ef7d92a3ac486af1
-
 
 print(are_valid_groups([1, 2, 3], [[1, 2], [1, 3]]))
